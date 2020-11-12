@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.208">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/class1"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="밥류"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown"
+                    android:fontFamily="@font/jua"
+                    />
+
+                <Button
+                    android:id="@+id/class2"
+                    android:layout_width="100dp"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="김밥/초밥류"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/class3"
+                    android:layout_width="100dp"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="죽/스프류"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/class4"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="면/만두류"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/class5"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="떡류"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/class6"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/jua"
+
+                    android:background="@drawable/imgbtn_states"
+                    android:text="빵류"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/class7"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="버거류"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/class8"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/jua"
+
+                    android:background="@drawable/imgbtn_states"
+                    android:text="피자류"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/class9"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/jua"
+
+                    android:background="@drawable/imgbtn_states"
+                    android:text="치킨류"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/class10"
+                    android:layout_width="100dp"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="샌드위치류"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/class11"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/jua"
+
+                    android:background="@drawable/imgbtn_states"
+                    android:text="한과류"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/class12"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="음료/차류"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/class13"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="국/탕류"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/class14"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="냉국류"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/class15"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="찌개/전골류"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/class16"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/jua"
+
+                    android:background="@drawable/imgbtn_states"
+                    android:text="찜류"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/class17"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/jua"
+
+                    android:background="@drawable/imgbtn_states"
+                    android:text="구이류"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/class18"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="볶음류"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/class19"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="조림류"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/class20"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="튀김류"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/class21"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="김치"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/class22"
+                    android:layout_width="100dp"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="샐러드"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/class23"
+                    android:layout_width="100dp"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="나물/숙채류"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/class24"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/jua"
+
+                    android:background="@drawable/imgbtn_states"
+                    android:text="생채/무침류"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/class25"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="건포류"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/class26"
+                    android:layout_width="100dp"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="전/적/부침류"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/class27"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/jua"
+
+                    android:background="@drawable/imgbtn_states"
+                    android:text="젓갈류"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/class28"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="회류"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/class29"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="장아찌/절임류"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/class30"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="기타"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:layout_width="100dp"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:textColor="#FFFFFF"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/class31"
+                    android:layout_width="100dp"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="면/만두류"
+                    android:textColor="#FFFFFF"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/brown" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/tag1"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/jua"
+
+                    android:background="@drawable/imgbtn_states"
+                    android:text="혼밥용"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/tag2"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="쓴"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/tag3"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="싱거운"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/tag4"
+                    android:layout_width="100dp"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="버터맛의"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tag5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/tag6"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="텁텁한"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/tag7"
+                    android:layout_width="100dp"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="쫄깃한"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/tag8"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="담백한"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/tag9"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="바삭한"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/tag10"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/jua"
+
+                    android:background="@drawable/imgbtn_states"
+                    android:text="마른, 퍽퍽한"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/tag11"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="술 안주"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/tag12"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/jua"
+
+                    android:background="@drawable/imgbtn_states"
+                    android:text="발효된"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/tag13"
+                    android:layout_width="100dp"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="풍미있는"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/tag14"
+                    android:layout_width="100dp"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="신선한"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/tag15"
+                    android:layout_width="100dp"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="과일 맛의"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/tag16"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/jua"
+
+                    android:background="@drawable/imgbtn_states"
+                    android:text="마늘 맛의"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/tag17"
+                    android:layout_width="100dp"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="해장용"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/tag18"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="건강한"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/tag19"
+                    android:layout_width="100dp"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="든든한"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/tag20"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="고기 맛이 강한"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/tag21"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:fontFamily="@font/jua"
+
+                    android:background="@drawable/imgbtn_states"
+                    android:text="여삭"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/tag22"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="순한"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/tag23"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="촉촉한"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/tag24"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="기름진"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/tag25"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="시원한"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/tag26"
+                    android:layout_width="100dp"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="짠"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/tag27"
+                    android:layout_width="100dp"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="간식"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/tag28"
+                    android:layout_width="100dp"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="신"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <Button
+                    android:id="@+id/tag29"
+                    android:fontFamily="@font/jua"
+
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/imgbtn_states"
+                    android:text="매운"
+                    android:textColor="#FFFFFF"
+                    app:srcCompat="@drawable/brown" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/tag30"
+                        android:fontFamily="@font/jua"
+
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/imgbtn_states"
+                        android:text="끈적한"
+                        android:textColor="#FFFFFF"
+                        app:srcCompat="@drawable/brown" />
+
+                    <Button
+                        android:id="@+id/tag31"
+                        android:fontFamily="@font/jua"
+
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/imgbtn_states"
+                        android:text="속이 꽉 찬"
+                        android:textColor="#FFFFFF"
+                        app:srcCompat="@drawable/brown" />
+
+                    <Button
+                        android:id="@+id/tag32"
+                        android:layout_width="100dp"
+                        android:fontFamily="@font/jua"
+
+                        android:layout_height="50dp"
+                        android:background="@drawable/imgbtn_states"
+                        android:text="달달한"
+                        android:textColor="#FFFFFF"
+                        app:srcCompat="@drawable/brown" />
+
+                    <Button
+                        android:id="@+id/tag33"
+                        android:fontFamily="@font/jua"
+
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/imgbtn_states"
+                        android:text="물이 많은"
+                        android:textColor="#FFFFFF"
+                        app:srcCompat="@drawable/brown" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="?android:attr/ratingBarStyleIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:rating="2.5"
+        android:stepSize="0.5"
+        android:theme="@style/RatingBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="@dimen/customerItem_cup_size"
+            android:layout_height="@dimen/customerItem_cup_size"
+            android:layout_marginLeft="@dimen/customerItem_left_margin"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/red" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="@dimen/customerItem_cup_size"
+            android:layout_height="@dimen/customerItem_cup_size"
+            android:layout_marginLeft="@dimen/customerItem_left_margin"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/red" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="@dimen/customerItem_cup_size"
+            android:layout_height="@dimen/customerItem_cup_size"
+            android:layout_marginLeft="@dimen/customerItem_left_margin"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/red" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="@dimen/customerItem_cup_size"
+            android:layout_height="@dimen/customerItem_cup_size"
+            android:layout_marginLeft="@dimen/customerItem_left_margin"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/nonred" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="@dimen/customerItem_cup_size"
+            android:layout_height="@dimen/customerItem_cup_size"
+            android:layout_marginLeft="@dimen/customerItem_left_margin"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/nonred" />
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/orderb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
